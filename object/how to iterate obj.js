@@ -16,3 +16,11 @@ for(let key in person){
 // for(let key of Object.keys(person)){
 //     console.log(person[key]);
 // }
+const cars = ["BMW", "Volvo", "Saab", "Ford"];
+let text = "";
+for (let x in cars) {
+  text += cars[x] + " ";
+  console.log(x);
+}
+
+console.log(text);
